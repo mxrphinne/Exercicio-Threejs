@@ -23,7 +23,7 @@ scene.add(box);
 // Caixa2
 const box2 = new THREE.Mesh(
   new THREE.BoxGeometry(1.5, 3, 1),
-  new THREE.MeshBasicMaterial({ color: 0x1e90ff }) // cor: ciano
+  new THREE.MeshBasicMaterial({ color: 0x1e90ff })
 );
 box2.position.set(0, 1.5, -4);    
 box2.rotation.y = Math.PI / 6;    
